@@ -14,7 +14,7 @@ The project follows this pipeline:
 1. **Import Libraries & Setup**  
 2. **Dataset Loading** (MNIST/CIFAR-10)  
 3. **Data Exploration & Preprocessing**  
-4. **Dataset Splitting** (Train/Test/Validation)  
+4. **Dataset Splitting** (Train/Validation)  
 5. **Initial Modeling**  
 6. **Hyperparameter Tuning**  
 7. **Final Model Training**  
