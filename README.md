@@ -22,7 +22,7 @@ The project follows this pipeline:
 9. **Results & Visualization**  
 
 ## Models Implemented
-### MNIST Binary Classification
+### MNIST Binary Classification (8 vs 3)
 - Logistic Regression  
 - Support Vector Machine (SVM)
 
