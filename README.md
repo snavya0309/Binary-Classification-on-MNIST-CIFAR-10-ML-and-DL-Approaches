@@ -6,7 +6,7 @@ This project implements binary classification tasks on the MNIST and CIFAR-10 da
 
 ## Development Environment
 - Platform: Google Colab
-- Hardware: CPU
+- **GPU:** Enabled 
 - Python Version: 3.x
 
 ## Project Structure
@@ -32,8 +32,14 @@ The project follows this pipeline:
 
 ## Running Instructions
 1. Open **Google Colab**.  
-2. Upload the respective `.ipynb` notebooks.   
-3. Run all cells sequentially.
+2. Upload the respective `.ipynb` notebooks.  
+3. Enable GPU runtime:  
+   - Navigate to `Runtime` → `Change runtime type` → Select `GPU`.  
+4. Check GPU availability by running:  
+   ```python
+   import torch
+   print(torch.cuda.is_available())
+5. Run all cells sequentially.
 
 ## Dependencies
 - `python`  
@@ -49,7 +55,6 @@ The project follows this pipeline:
 
 ## Note
 Some models use **Optuna** for hyperparameter optimization, which may take considerable time to run. Adjust the `n_trials` parameter in the code if needed. 
-"Models were trained using CPU. Training times may be significantly reduced if using GPU acceleration."
 
 ---
 
