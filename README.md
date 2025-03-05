@@ -1,5 +1,3 @@
-# EEE-549-Final-Project
-
 # Binary Classification on MNIST and CIFAR-10
 
 This project implements binary classification tasks on the MNIST and CIFAR-10 datasets using various machine learning approaches.
